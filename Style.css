@@ -95,15 +95,17 @@ nav a:hover {
 }
 
 .home-content button:hover {
-    background-color: #773f07;
+    /* background-color: #773f07; */
+     background-color: #1e4417;
 }
 
 #vendors {
-    background-color: #ee943a;
+    background-color: #eeaa65;
+    /* color: #e05c00; */
 }
 
 #vendors:hover {
-    background-color: #773f07;
+    background-color: #1e4417;
 }
 
 
