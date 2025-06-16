@@ -1,0 +1,461 @@
+
+strong{
+    color: #F57C00;
+
+}
+
+#contactHeading{
+    text-align: center;
+}
+
+hr{
+   border: solid #F57C00 1px;
+
+}
+
+form{
+    justify-content: center;
+    background-color: #F57C00;
+    width: 45vw;
+    border-radius: 0.7em;
+    padding: 3em;
+    position: absolute;
+    top: 15%;
+    
+
+}
+
+label{
+    color: white;
+}
+.userInputs{
+    display: flex;
+    gap: 15em;
+}
+
+#email,#name{
+    padding: 0.7em;
+    border: none;
+    width: 20em;
+    margin-top: 3%;
+    border-radius: 0.2em;
+}
+
+#text{
+    padding: 2em;
+    border: none;
+    width: 57em;
+    height: 12em;
+    border-radius: 0.3em;
+    margin-top: 1%;
+    
+    
+}
+
+.messageInputs{
+    position: relative;
+    transform: translateY(8%);
+}
+
+#messageLabel{
+    color: white;
+}
+hr{
+    color: #F57C00;
+}
+
+.contactSection{
+    display: flex;
+    justify-content: center;
+}
+
+#contactButton{
+    transform: translate(49em,1em);
+     color: #F57C00;
+     border: none;
+     width: 12em;
+     border-radius: 0.3em;
+     padding:1em ;
+}
+
+@media only screen and (min-width: 0px) and (max-width:450px){
+    form{
+    justify-content: center;
+    background-color: #F57C00;
+    width: 70vw;
+    border-radius: 0.7em;
+    padding: 3em;
+    
+
+}
+
+label{
+    color: white;
+}
+.userInputs{
+    flex-direction: column;
+    gap: 1em;
+}
+
+#email,#name{
+    padding: 0.7em;
+    border: none;
+    width: 15em;
+    border-radius: 0.2em;
+}
+
+#text{
+    padding: 2em;
+    border: none;
+    width: 17em;
+    height: 10em;
+    border-radius: 0.3em;
+    
+    
+}
+
+#messageLabel{
+    color: white;
+}
+hr{
+    color: #F57C00;
+}
+
+.contactSection{
+    display: flex;
+    justify-content: center;
+}
+
+#contactButton{
+        transform: translate(9em,1em);
+
+
+}
+
+
+
+
+
+}
+
+@media only screen and (min-width: 451px) and (max-width:540px){
+
+    form{
+    justify-content: center;
+    background-color: #F57C00;
+    width: 70vw;
+    border-radius: 0.7em;
+    padding: 3em;
+    
+
+}
+
+label{
+    color: white;
+}
+.userInputs{
+    flex-direction: column;
+    gap: 1em;
+}
+
+#email,#name{
+    padding: 0.7em;
+    border: none;
+    width: 15em;
+    border-radius: 0.2em;
+}
+
+#text{
+    padding: 2em;
+    border: none;
+    width: 25em;
+    height: 10em;
+    border-radius: 0.3em;
+    
+    
+}
+
+#messageLabel{
+    color: white;
+}
+hr{
+    color: #F57C00;
+}
+
+.contactSection{
+    display: flex;
+    justify-content: center;
+}
+
+#contactButton{
+        transform: translate(17em,1em);
+
+
+}
+
+
+
+}
+
+
+@media only screen and (min-width: 541px) and (max-width:600px) {
+
+  form{
+    justify-content: center;
+    background-color: #F57C00;
+    width: 70vw;
+    border-radius: 0.7em;
+    padding: 3em;
+    
+
+}
+
+label{
+    color: white;
+}
+.userInputs{
+    flex-direction: column;
+    gap: 1em;
+}
+
+#email,#name{
+    padding: 0.7em;
+    border: none;
+    width: 15em;
+    border-radius: 0.2em;
+}
+
+#text{
+    padding: 2em;
+    border: none;
+    width: 15em;
+    height: 10em;
+    border-radius: 0.3em;
+    
+    
+}
+
+#messageLabel{
+    color: white;
+}
+hr{
+    color: #F57C00;
+}
+
+.contactSection{
+    display: flex;
+    justify-content: center;
+}
+
+#contactButton{
+        transform: translate(7em,1em);
+
+
+}
+
+
+
+
+}
+@media only screen and (min-width: 601px) and (max-width:800px){
+
+  
+  form{
+    justify-content: center;
+    background-color: #F57C00;
+    width: 70vw;
+    border-radius: 0.7em;
+    padding: 3em;
+    
+
+}
+
+label{
+    color: white;
+}
+.userInputs{
+    flex-direction: column;
+    gap: 1em;
+}
+
+#email,#name{
+    padding: 0.7em;
+    border: none;
+    width: 15em;
+    border-radius: 0.2em;
+}
+
+#text{
+    padding: 2em;
+    border: none;
+    width: 35em;
+    height: 10em;
+    border-radius: 0.3em;
+    
+    
+}
+
+#messageLabel{
+    color: white;
+}
+hr{
+    color: #F57C00;
+}
+
+.contactSection{
+    display: flex;
+    justify-content: center;
+}
+
+#contactButton{
+        transform: translate(27em,1em);
+
+
+}
+
+
+}
+@media only screen and (min-width: 801px) and (max-width:999px) {
+
+
+
+
+form{
+    justify-content: center;
+    background-color: #F57C00;
+    width: 80vw;
+    border-radius: 0.7em;
+    padding: 3em;
+    position: absolute;
+    top: 15%;
+    font-size: 1.5em;
+    
+
+}
+
+label{
+    color: white;
+}
+.userInputs{
+    display: flex;
+    gap: 5em;
+}
+
+#email,#name{
+    padding: 0.7em;
+    border: none;
+    width: 20em;
+    margin-top: 3%;
+    border-radius: 0.2em;
+}
+
+#text{
+    padding: 2em;
+    border: none;
+    width: 45em;
+    height: 12em;
+    border-radius: 0.3em;
+    margin-top: 1%;
+    
+    
+}
+
+.messageInputs{
+    position: relative;
+    transform: translateY(8%);
+}
+
+#messageLabel{
+    color: white;
+}
+hr{
+    color: #F57C00;
+}
+
+.contactSection{
+    display: flex;
+    justify-content: center;
+}
+
+#contactButton{
+    transform: translate(37em,1em);
+     color: #F57C00;
+     border: none;
+     width: 12em;
+     border-radius: 0.3em;
+     padding:1em ;
+}
+
+
+}
+@media only screen and (min-width: 1000px) and (max-width:1400px) {
+
+
+
+form{
+    justify-content: center;
+    background-color: #F57C00;
+    width: 80vw;
+    border-radius: 0.7em;
+    padding: 3em;
+    position: absolute;
+    top: 15%;
+    font-size: 1.6em;
+    
+
+}
+
+label{
+    color: white;
+}
+.userInputs{
+    display: flex;
+    gap: 9em;
+}
+
+#email,#name{
+    padding: 0.9em;
+    border: none;
+    width: 20em;
+    margin-top: 3%;
+    border-radius: 0.2em;
+}
+
+#text{
+    padding: 2em;
+    border: none;
+    width: 58em;
+    height: 12em;
+    border-radius: 0.3em;
+    margin-top: 1%;
+    
+    
+}
+
+.messageInputs{
+    position: relative;
+    transform: translateY(8%);
+}
+
+#messageLabel{
+    color: white;
+}
+hr{
+    color: #F57C00;
+}
+
+.contactSection{
+    display: flex;
+    justify-content: center;
+}
+
+#contactButton{
+    transform: translate(20em,1em);
+     color: #F57C00;
+     border: none;
+     width: 12em;
+     border-radius: 0.3em;
+     padding:0.7em ;
+     font-size: 1em;
+}
+}
