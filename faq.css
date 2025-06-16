@@ -90,6 +90,8 @@ footer{
     background-color: black;
     color: white;
     margin-top: 12%;
+    width: 99vw;
+    margin-left: -13.5%;
 }
 .footerSection{
     display: flex;
@@ -218,6 +220,7 @@ footer{
 }
 #footerLogoText{
     text-align: center;
+   
 }
 .footerLeftContainer{
     ul{
@@ -240,7 +243,7 @@ footer{
 }
 @media only screen and (max-width:900px) and (min-width:701px){
 footer{
-    width: 100vw;
+    width: 99vw;
     margin-left: -14%;
     margin-top: 15vh;
 }
@@ -295,5 +298,19 @@ footer{
 #footerLogo{
     width: 5em;
     margin-top: 2em;
+}
+}
+
+@media only screen and (min-width:1201px) and (max-width:1366px){
+footer{
+    width: 99.8vw;
+    margin-left: -13%;
+   
+}  
+.footerRightContainer{
+margin-left: -10%;
+}
+.footerLogo{
+    margin-left: -10%;
 }
 }
