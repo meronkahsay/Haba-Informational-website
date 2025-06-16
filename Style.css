@@ -100,12 +100,13 @@ nav a:hover {
 }
 
 #vendors {
-    background-color: #eeaa65;
-    /* color: #e05c00; */
+    background-color: #e7be95;
+    color: #e67728;
 }
 
 #vendors:hover {
     background-color: #1e4417;
+    color: white;
 }
 
 
