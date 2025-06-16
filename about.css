@@ -1,6 +1,6 @@
 
 .about_us{
-    margin-left: 1%;
+    transform: translate(0);
     font-family: manrope;
     font-size: 22px;
     p{
@@ -8,7 +8,7 @@
     }
 }
 #about{
-    margin-left: 20%;
+    transform: translate(20%);
     font-weight: lighter;
 }
 #us{
@@ -44,9 +44,16 @@
 @media only screen and (max-width: 600px) {
     .about_us{
         font-size: 2 rem;
+        h1{
+            transform: translate(4px);
+        }
+        p{
+            width:100% ;
+        }
     }
     .mama{
         display: grid;
+    
     }
     #mamamboga{
         width: 100%;
