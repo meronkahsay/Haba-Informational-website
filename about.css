@@ -1,4 +1,8 @@
+body{
+    font-family: "Manrope";
+    overflow-x: hidden;
 
+}
 .about_us{
     transform: translate(0);
     font-family: manrope;
