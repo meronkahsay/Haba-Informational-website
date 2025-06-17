@@ -108,7 +108,64 @@ nav a:hover {
     background-color: #1e4417;
     color: white;
 }
+@media only screen and (width:320px) {
+    .home-bg {
+        height: 74vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(Images/home.jpg);
 
+        img {
+            z-index: 1;
+            width: 15%;
+        }
+    }
+
+    .home-content {
+        width: 100%;
+        border-radius: 0% 0% 50% 50%;
+        height: 75%;
+
+        nav {
+            padding-top: 20%;
+            font-size: 1rem;
+
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5%;
+
+        }
+
+        h1 {
+            margin-top: 15%;
+            font-size: 3.5em;
+
+        }
+
+    }
+
+    .icons {
+       display: flex;
+       left: 13%;
+       gap: 25%;
+        position: absolute;
+        top: 4%;
+
+    }
+
+    .home-content p {
+        margin: 15%;
+        width: 70%;
+        font-size: 1.2em;
+    }
+
+    .home-content button {
+        margin: 2%;
+        padding: 2%;
+        width: 35%;
+        border-radius: 50px;
+        font-size: 0.9rem;
+    }
+
+}
 
 
 
